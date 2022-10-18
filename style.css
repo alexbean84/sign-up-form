@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.container {
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    width: 400px;
+    max-width: 100%;
+}
+
+.header {
+    background-color: lightcoral;
+    padding: 20px 40px;
+    border-bottom: 1px solid gray;
+}
+
