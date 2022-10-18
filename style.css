@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=M+PLUS+Rounded+1c:wght@300&display=swap');
 
 
 *{
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: darksalmon;
+    background-color: darkslategrey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,16 +17,76 @@ body {
 }
 
 .container {
-    background-color: bisque;
+    background-image: url(galaxy.jpg);
+    background-size: 450px;
     border-radius: 5px;
     box-shadow: 0 2px 5px black;
     width: 400px;
     max-width: 100%;
+    overflow: hidden;
 }
 
 .header {
-    background-color: lightcoral;
+    background-color: darkcyan;
     padding: 20px 40px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid darkcyan;
+    opacity: 0.7;
+}
+
+.header h2 {
+    margin: 0;
+    color: ghostwhite;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: ghostwhite;
+}
+
+.form-control input {
+    border: 2px solid gray;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Cabin;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: darkcyan;
+    border: 2px solid darkcyan;
+    color: ghostwhite;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    font-family: Roboto;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkorange;
+    border-color: darkorange;
 }
 
